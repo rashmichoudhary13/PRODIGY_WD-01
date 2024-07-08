@@ -1,0 +1,83 @@
+<HTML>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Responsive Landing Page</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="phone.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Arsenal+SC&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        />
+      </head>
+<body>
+  <section id="contact-section">
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="image/bird.png" />
+      </div>
+
+      <ul class="nav-link nav-index">
+        <i class="fa-solid fa-xmark" onclick="HideMenu()"></i>
+        <div class="col-list">
+          <li><a href="index.html" class="black">Home</a></li>
+          <li><a href="about.html" class="black">About</a></li>
+          <li><a href="blogs.html" class="black">Blogs</a></li>
+          <li><a href="contact.html" class="black">Contact</a></li>
+        </div>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="ShowMenu()"></i>
+    </nav>
+
+   <!-- Contact Section -->
+    <div class="box">
+      <div class="contact">
+        <div class="contact-content">
+        <label> Name: </label>
+        <input type="text">
+      </div>
+      <div class="contact-content">
+        <label> Email: </label>
+        <input type="email">
+      </div>
+      <div class="contact-content msg">
+        <label> Message: </label>
+        <textarea> </textarea>
+      </div>
+  
+        <input type="submit" class="submit-btn">
+    </div>
+  </div>
+
+  <div class="icon">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-x-twitter"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-square-whatsapp"></i>
+  </div>
+  </section>
+
+
+  <footer>
+    <div class="footer">
+      <p class="white"> <b>Copyright:</b> Designed by TravelAgency</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</HTML>

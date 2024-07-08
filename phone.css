@@ -1,0 +1,186 @@
+@media(max-width: 740px){
+
+    /* Navigation bar */
+    
+    .navbar{
+        padding: 4px 0;
+        align-items: flex-start;
+    }
+    .nav-link{
+        background:rgba(46, 230, 208,0.5);
+        width: 255px;
+        position: absolute;
+        text-align: left;
+        height: 100vh;
+        top: 0; 
+        right: 0;
+        display:none;
+        transition: 0.6s ease-in-out;
+    }
+
+    .col-list{
+        display:flex;
+        flex-direction: column;
+    }
+   
+    .nav-link li:hover::after{
+        width: 30%; 
+    }
+
+    .nav-link li a{
+        display:block;
+        padding-top: 36px;
+        text-align: center;
+        color: black;
+    }
+
+    img{
+        width: 5em;
+    }
+
+    .btn-container{
+        width: 135%;
+    }
+
+    .btn{
+        margin: 30px 17px;
+    }
+
+    i.fa-solid{
+        display: block;
+    }
+
+    i.fa-xmark{
+        padding: 20px 9px 0px 27px;
+    }
+
+    .fa-bars{
+        padding: 40px;
+    }
+
+    /* Text section */
+    .text{
+        font-size: 2em;
+    }
+
+    .sub-text{
+        font-size: 15px;
+        padding: 0 0;
+    }
+
+    .content{
+        height: 47em;
+    }
+
+    /* Card Section */
+    .card-title{
+        font-size: 20px;
+    }
+   
+     /* About Section */
+   
+     .abt-container{
+        flex-direction: column;
+    }
+
+    .abt-container img{
+        width: 100%;
+        height: auto;
+        flex: 1;
+    }
+
+    .abt-content {
+        padding: 20px;
+        overflow:scroll;
+    }
+    
+    .abt-content h3 {
+        font-size: 1.5em;
+    }
+    
+    .abt-content p {
+        font-size: 1em;
+       
+    }
+    
+    .out-container{
+        height: 107vh;
+    }
+    
+    /* Contact Section */
+
+    .box{
+       width: 20em;
+       padding: 41px;
+       transform: translate(0px, -22px);
+    }
+
+    .contact{
+        justify-content: center;
+        height: 66%;
+    }
+
+    .contact-content{
+        font-size: 20px;
+        margin-bottom: 23px;
+    }
+
+    .contact-content input{
+        width: 72%;
+        font-size:15px;
+        padding:8px;
+        border: 1px solid black;
+    }
+
+    .contact-content textarea{
+        width: 94%;
+        height: 134%;
+        font-size: 15px;
+        padding: 8px;
+        border: 1px solid black;
+    }
+
+    .msg{
+        margin-left: 1px;
+    }
+
+    .submit-btn{
+        position: relative;
+        top: 57px;
+    }
+
+    .icon{
+        padding-left: 2.3em;
+        padding-bottom: 1em;
+    }
+    
+
+    /* footer Section */
+
+    .footer {
+        background-color: black;
+        height: 45px;
+        padding: 6px;
+        text-align: center;
+    }
+
+    .footer p {
+        font-size: 1em;
+    }
+
+    /* Blogs Section */
+    #blogs-section {
+        background-size: contain;
+        padding-top: 24%;
+    }
+
+    .blog-item{
+        width: 81%;
+    }
+
+    .blog-item img{
+        float: none;
+        width: 100%;
+        max-width: none;
+    }
+}
